@@ -10,21 +10,21 @@
     <div class="form-wrap">
             <div class="form">
                 <label for="task">Task Details*</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" id="task" name="task" >
+                <input type="text" id="task" name="task" ><div id="textinvalid"></div>
             </div>
             <div class="form">
                 <label for="name">Name*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" id="name" name="name" >
+                <input type="text" id="name" name="name" ><div id="nameinvalid"></div>
             </div>
             <div class="form">
                 <label for="due date">Due Date</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="date" name="due date" id="due date">
+                <input type="date" name="due date" id="due date"><div id="dateinvalid"></div>
             </div>
-        <button class="btn" onclick="myFunction()">Add Task</button>
+        <button class="btn" onclick="addTask()">Add Task</button>
         <br>
         <br>
         <h2> In Progress</h2>
-        <table id="todot">
+        <table id="todo_table">
             <tr>
                 <th>Task Details</th>
                 <th>Assigne</th>
@@ -35,7 +35,7 @@
         <br>
         <br>
         <h2>Completed Task</h2>
-        <table id="donet">
+        <table id="completed_table">
             <tr>
                 <th>Task Details</th>
                 <th>Assigne</th>
