@@ -1,0 +1,22 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "I have created a form for todo list. It will add task in todo table and when we check our task as done, it will delete that entry and push it into progress table.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaysd11/Assignment1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaysd11/Assignment1/issues"
+  },
+  "homepage": "https://github.com/jaysd11/Assignment1#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}

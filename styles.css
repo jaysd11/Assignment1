@@ -55,13 +55,13 @@
         margin-left: 45%;
         padding: 12px 20px;
     }
-    #todot, #donet, th, td {
+    #todo_table, #completed_table, th, td {
     border:1px solid black;
     text-align: center;
     max-height: 500px;
     margin-left: 10%;
     background-color: white;
     }
-    #todot, #donet{
+    #todo_table, #completed_table{
         width: 70%;
     }
